@@ -7,6 +7,7 @@ public class HelloWorld {
 		System.out.println("Working...");
 		
 		int i = 0;
+		int j = 0;
 	}
 
 }
