@@ -25,11 +25,5 @@ public class Rectangle {
 	}
 	
 	
-    void area() {
-    	int cal;
-    	cal=length*breath;
-    	System.out.println(cal);
-    	
-    }
 
 }
