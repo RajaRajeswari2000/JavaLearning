@@ -4,23 +4,19 @@ import java.util.Arrays;
 
 public class IsAnagram {
 	public static boolean anagram() {
-		String name1 = "raji";
-		String name2 = "raje";
-		boolean result = false;
+		String name1 = "listen";
+		String name2 = "silent";
 		if (name1.length() == name2.length()) {
 			char[] nam1 = name1.toCharArray();
 			char[] nam2 = name2.toCharArray();
 			Arrays.sort(nam1);
 			Arrays.sort(nam2);
 			if (Arrays.equals(nam1, nam2)) {
-				result = true;
-			} else {
-				// System.out.println("False");
-				result = false;
-			}
+				return true;
+			} 
 
 		}
-		return result;
+		return false;
 
 	}
 
